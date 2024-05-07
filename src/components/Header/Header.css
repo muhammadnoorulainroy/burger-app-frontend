@@ -1,0 +1,17 @@
+.logo {
+  background-color: white;
+  padding: 8px;
+  height: 100%;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+
+.logo img {
+  height: 30px;
+  width: 50px;
+}
+
+.navbar-custom {
+  background-color: rgba(50, 35, 3, 0.963) !important;
+  color: #fff;
+}

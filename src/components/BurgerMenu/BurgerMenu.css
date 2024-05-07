@@ -1,0 +1,90 @@
+.menu-area{
+  background-color: #cf8f2e;
+}
+.price-area, .lettuce-ingredient{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.lettuce-ingre{
+  padding-top: 1rem;
+  margin-right: 2rem;
+}
+
+.cheese-ingre{
+  padding-top: 1rem;
+  margin-right: 2.2rem;
+}
+
+.meat-ingre{
+  padding-top: 1rem;
+  margin-right: 3rem;
+}
+
+.bacon-ingre{
+  padding-top: 1rem;
+  margin-right: 2.8rem;
+}
+
+.less-btn{
+  padding: 3px 20px 3px 20px;
+  margin: 3px;
+  font-size: 1rem;
+  background-color: rgb(225, 175, 111);
+  border: 1px solid rgb(83, 19, 19);
+  border-color: rgb(53, 42, 12);
+  color: #fff;
+}
+
+.less-btn:hover{
+  background-color: #ba9661;
+}
+
+.more-btn{
+  padding: 3px 20px 3px 20px;
+  margin: 3px;
+  font-size: 1rem;
+  background-color: rgb(144, 85, 7);
+  border: 1px solid rgb(83, 19, 19);
+  border-color: rgb(53, 42, 12);
+  color: #fff;
+}
+
+.more-btn:hover{
+  background-color: #9a6312;
+}
+
+.less-btn:disabled{
+  background-color: gray;
+  color: lightgray;
+  cursor: not-allowed;
+}
+
+.order-btn{
+  padding: 10px 40px 10px 40px;
+  margin: 15px;
+  font-size: 1.5rem;
+  background-color: #e4da0c;
+  color: #d18411;
+  border: 1px solid;
+}
+
+.order-btn:hover{
+  background-color: #ff9b05;
+  color: #fff;
+}
+
+.order-btn:disabled{
+  cursor: not-allowed;
+  background-color: gray;
+  color: wheat;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.link{
+  text-decoration: none;
+  color: #d18411;
+}
